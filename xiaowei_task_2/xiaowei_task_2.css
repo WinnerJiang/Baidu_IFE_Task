@@ -1,0 +1,50 @@
+
+body, html{
+    background-color:#dedede;
+    margin: 0;
+
+
+}
+.navBarContainer{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    padding:0;
+    font:22px;
+    background-color: #333;
+}
+
+.navBar{
+    height: 100%;
+    width: 100%;
+   
+}
+.navImg, .navBarList{
+    /*text-align: right;*/
+    height: 60%;
+    padding: 10px 0 5px 40px;
+    /*width: 120px;*/
+
+}
+.navBarList{
+    /*float: right;*/
+    position: absolute;
+    right: 15px;
+    margin: 10px 10px 5px 0;
+    line-height: 20px;
+    /*text-align: right;*/
+    display: inline-block;
+    list-style-type: disc;
+    
+}
+.navBarList li{
+    display: inline-block;
+    text-align: right;
+}
+
+
+.sectionBlock{
+    background-color: #fff;
+
+}
